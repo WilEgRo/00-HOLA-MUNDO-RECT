@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background: #222;
+    font-style: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
